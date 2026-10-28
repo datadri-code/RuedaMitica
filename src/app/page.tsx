@@ -120,7 +120,9 @@ export default function Home() {
       </section>
 
       {history.length > 0 && <section className="history"><span>ÚLTIMOS DESCUBRIMIENTOS</span>{history.map((index) => <strong key={index}>{creatures[index].emoji} {creatures[index].name}</strong>)}</section>}
-      <footer><span>MITICA © 2026</span><span>Hecho para las mentes curiosas <b>✦</b></span></footer>
+      <footer><span>Proyecto final de la materia de ingeniería de software - Carrera Ahumada Adrián - id 225361598</span><span><p></p></span><span>Hecho para las mentes curiosas <b>✦</b><b>✦</b></span>      
+      </footer>
+      <p>Memento mori</p>  
     </main>
   );
 }
